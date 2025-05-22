@@ -145,7 +145,7 @@ background-color: rgb(221, 221, 221);}
     padding: 0px;
     /* border: 2px solid black; */
     position: absolute;
-    left: 20px;
+    left: 34px;
     width: 60px;
     height: 50px;
     opacity: 80%;
@@ -162,4 +162,34 @@ background-color: rgb(221, 221, 221);}
     font-weight: 720;
     font-family: Arial, Helvetica, sans-serif;
     width: 30vw;
+}
+.hamburger{
+    display: flex;
+    margin: 0px;
+    width: 30px;
+    height: 100%;
+    /* border: 1px solid; */
+    position: absolute;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger:hover{
+    background-color: rgb(214, 214, 214);
+}
+.hamburger:active{
+    background-color: rgb(206, 205, 205);
+    .sidelist{
+        width: 100px;
+    }
+}
+.sidelist li{
+    list-style: none;
+    color: white;
+    background-color: black;
+    width: 150px ;
+    margin: 0px;
+}
+.sidelist li:hover{
+    color: black;
 }
