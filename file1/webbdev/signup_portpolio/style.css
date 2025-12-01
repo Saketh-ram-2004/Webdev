@@ -61,7 +61,6 @@ p{
     padding: 0 40px 10px 40px;
     color: rgb(100, 100, 100);
     text-align: center;
-    font-weight: bold;
 }
 button[class="box"]{
     background-color: #1e2c4b;
@@ -101,4 +100,7 @@ button[class="fb"]{
     height:30.5px;
     border-radius: 2px;
     border-color: #3b5998;
+}
+#desc{
+    font-weight: bold;
 }
